@@ -4,13 +4,9 @@
 import sys, os
 sys.path.append(os.path.dirname(__file__))
 import unittest
-<<<<<<< HEAD
 from calculator import *
-import calculator
 import math
-=======
 import calculator
->>>>>>> 378e6ef778595bb18887c2b3516506f819aa6abf
 
 class TestCalculator(unittest.TestCase):
     ######## Partner 2
