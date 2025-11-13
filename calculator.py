@@ -21,6 +21,10 @@ def sub(a, b):
     return a - b
 def mul(a, b):
     return a * b
+def div(a,b):
+    if b == 0:
+        raise ZeroDivisionError
+    return a / b
 def log(a, b):
     if a <= 0 or a == 1  or b <= 0:
         raise ValueError("invalid base or argument for logarithm")
