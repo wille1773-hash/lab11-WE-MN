@@ -1,3 +1,6 @@
+#https://github.com/wille1773-hash/lab11-WE-MN.git
+#Partner1: William Evans
+#Partner2: Matthew Nunes
 import unittest
 from calculator import *
 
