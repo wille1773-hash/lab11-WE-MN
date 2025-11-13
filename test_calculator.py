@@ -55,13 +55,13 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_base(self): # 1 assertion
         # use same technique from test_divide_by_zero
         with self.assertRaises(ValueError):
-            calculator.log(1,17)
+            calculator.logarithm(1,17)
     ##########################
     
     ######## Partner 1
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
-            calculator.log(2, -8)
+            calculator.logarithm(2, -8)
 
     def test_hypotenuse(self):
         self.assertAlmostEqual(calculator.hypotenuse(3, 4), 5.0)
